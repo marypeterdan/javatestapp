@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.stackroute.sampletest.BookTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.005 s <<< FAILURE! - in com.stackroute.sampletest.BookTest
+com.stackroute.sampletest.BookTest.testAuthorName()  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.stackroute.sampletest.Book.isValid()" because "this.book" is null
+	at com.stackroute.sampletest.BookTest.testAuthorName(BookTest.java:140)
+
