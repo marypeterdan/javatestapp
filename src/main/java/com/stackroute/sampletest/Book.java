@@ -32,7 +32,7 @@ public Book(String bookName, String author, int price,String[] publi) {
 
 public void sortPublisher()
 {
-	Arrays.sort(publications);
+	Arrays.sort(publications)
 	
 }
 
